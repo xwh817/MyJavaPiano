@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keys>
+
+	<!-- 要用到的快捷键 -->
+	<keys_mapping>
+		<key key="F1" keyCode="112" />
+		<key key="F2" keyCode="113" />
+		<key key="F3" keyCode="114" />
+		<key key="F4" keyCode="115" />
+		<key key="F5" keyCode="116" />
+		<key key="F6" keyCode="117" />
+		<key key="F7" keyCode="118" />
+		<key key="F8" keyCode="119" />
+		<key key="F9" keyCode="120" />
+		<key key="F10" keyCode="121" />
+		<key key="F11" keyCode="122" />
+		<key key="F12" keyCode="123" />
+		<key key="无" keyCode="-1" />
+	</keys_mapping>
+	
+	
+	<!-- 对应的快捷键 -->
+	
+	<!-- 升降8度 -->
+	<left8_in>116</left8_in>
+	<left8_de>117</left8_de>
+	<right8_in>123</right8_in>
+	<right8_de>122</right8_de>
+	
+	<!-- 移调 -->
+	<major_in>-1</major_in>
+	<major_de>-1</major_de>
+	
+	<!-- 更换乐器 -->
+	<instr_1>112</instr_1>
+	<instr_2>113</instr_2>
+	<instr_3>114</instr_3>
+	<instr_4>115</instr_4>
+	
+	<!-- 默认设置 -->
+	<defaultSetting>
+		<left8_in>116</left8_in>
+		<left8_de>117</left8_de>
+		<right8_in>123</right8_in>
+		<right8_de>122</right8_de>
+		<major_in>113</major_in>
+		<major_de>114</major_de>
+		<instr_1>-1</instr_1>
+		<instr_2>-1</instr_2>
+		<instr_3>-1</instr_3>
+		<instr_4>-1</instr_4>
+	</defaultSetting>
+	
+</keys>

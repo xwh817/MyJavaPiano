@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+	<lookAndFeel>com.jtattoo.plaf.mcwin.McWinLookAndFeel</lookAndFeel>
+	<theme>Default</theme>
+	
+	<path_records>F:\Eclipse\MyJavaPiano\records\Always with me.mjp</path_records>
+	<path_userFiles>C:\Documents and Settings\Administrator\桌面\MyJavaPiano_2.7.0\userFiles\Always with me.xml</path_userFiles>
+	
+	
+	<!-- 四个预设乐器对应的音色 -->
+	<instr_1_index>5</instr_1_index>
+	<instr_2_index>27</instr_2_index>
+	<instr_3_index>10</instr_3_index>
+	<instr_4_index>22</instr_4_index>
+	
+	
+	
+	<!-- 对应的快捷键 -->
+	<hotKeys>
+				
+		<!-- 升降8度 -->
+		<left8_in>F5</left8_in>
+		<left8_de>F6</left8_de>
+		<right8_in>F12</right8_in>
+		<right8_de>F11</right8_de>
+		
+		<!-- 移调 -->
+		<major_in></major_in>
+		<major_de></major_de>
+		
+		<!-- 更换乐器 -->
+		<instr_1>F1</instr_1>
+		<instr_2>F2</instr_2>
+		<instr_3>F3</instr_3>
+		<instr_4>F4</instr_4>
+	
+	</hotKeys>
+	
+</configuration>

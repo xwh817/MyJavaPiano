@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<MyJavaPianoSetting>
+
+	<PianoSetting>
+		
+		<flat>0</flat><!-- 调 -->
+		
+		<v8_left>0</v8_left><!-- 8度 -->
+		<v8_right>0</v8_right>
+		
+		<velocity_left>90</velocity_left><!-- 力度 -->
+		<velocity_right>100</velocity_right>
+	
+		<delay_left>3</delay_left><!-- 延音 index-->
+		<delay_right>3</delay_right><!-- 延音 -->
+		
+	</PianoSetting>
+	
+
+
+
+	<keysLayout>
+	
+	<!-- key的三个参数分别为：键盘事件keyCode,音高pitch,is_b是否为低半音，键盘描述（可为空） -->	
+		
+			<!-- 低音2 -->
+			<key keyCode="90" pitch="36" is_b="0" keyBorad="Z"/>
+			<key keyCode="88" pitch="38" is_b="0" keyBorad="X"/>
+			<key keyCode="67" pitch="40" is_b="0" keyBorad="C"/>
+			<key keyCode="86" pitch="41" is_b="0" keyBorad="V"/>
+			<key keyCode="66" pitch="43" is_b="0" keyBorad="B"/>
+			<key keyCode="78" pitch="45" is_b="0" keyBorad="N"/>
+			<key keyCode="77" pitch="47" is_b="0" keyBorad="M"/>
+			
+			<!-- 低音 -->
+			<key keyCode="65" pitch="48" is_b="0" keyBorad="A"/><key keyCode="44" pitch="48" is_b="0" keyBorad="小于号"/>
+			<key keyCode="83" pitch="50" is_b="0" keyBorad="S"/><key keyCode="46" pitch="50" is_b="0" keyBorad="大于号"/>
+			<key keyCode="68" pitch="52" is_b="0" keyBorad="D"/><key keyCode="47" pitch="52" is_b="0" keyBorad="问号"/>
+			<key keyCode="70" pitch="53" is_b="0" keyBorad="F"/>
+			<key keyCode="71" pitch="55" is_b="0" keyBorad="G"/>
+			<key keyCode="72" pitch="57" is_b="0" keyBorad="H"/>
+			<key keyCode="74" pitch="59" is_b="0" keyBorad="J"/>
+			
+			<!-- 中音 -->
+			<key keyCode="81" pitch="60" is_b="0" keyBorad="Q"/><key keyCode="75" pitch="60" is_b="0" keyBorad="K"/>
+			<key keyCode="87" pitch="62" is_b="0" keyBorad="W"/><key keyCode="76" pitch="62" is_b="0" keyBorad="L"/>
+			<key keyCode="69" pitch="64" is_b="0" keyBorad="E"/><key keyCode="59" pitch="64" is_b="0" keyBorad="分号"/>
+			<key keyCode="82" pitch="65" is_b="0" keyBorad="R"/><key keyCode="222" pitch="65" is_b="0" keyBorad="冒号"/>
+			<key keyCode="84" pitch="67" is_b="0" keyBorad="T"/><key keyCode="92" pitch="67" is_b="0" keyBorad="竖"/>
+			<key keyCode="89" pitch="69" is_b="0" keyBorad="Y"/>
+			<key keyCode="85" pitch="71" is_b="0" keyBorad="U"/>
+			
+			<!-- 高音 -->
+			<key keyCode="49" pitch="72" is_b="0" keyBorad="Left1"/><key keyCode="73" pitch="72" is_b="0" keyBorad="I"/>
+			<key keyCode="50" pitch="74" is_b="0" keyBorad="Left2"/><key keyCode="79" pitch="74" is_b="0" keyBorad="O"/>
+			<key keyCode="51" pitch="76" is_b="0" keyBorad="Left3"/><key keyCode="80" pitch="76" is_b="0" keyBorad="P"/>
+			<key keyCode="52" pitch="77" is_b="0" keyBorad="Left4"/><key keyCode="91" pitch="77" is_b="0" keyBorad="{"/>
+			<key keyCode="53" pitch="79" is_b="0" keyBorad="Left5"/><key keyCode="93" pitch="79" is_b="0" keyBorad="}"/>
+			<key keyCode="54" pitch="81" is_b="0" keyBorad="Left6"/>
+			<key keyCode="55" pitch="83" is_b="0" keyBorad="Left7"/>
+			
+			<!-- 高音2 -->
+			<key keyCode="56" pitch="84" is_b="0" keyBorad="8"/>
+			<key keyCode="57" pitch="86" is_b="0" keyBorad="9"/>
+			<key keyCode="48" pitch="88" is_b="0" keyBorad="0"/>
+			<key keyCode="45" pitch="89" is_b="0" keyBorad="-"/>
+			<key keyCode="61" pitch="91" is_b="0" keyBorad="+"/>
+			
+	
+		
+			<!-- 低音 -->
+			<key keyCode="37" pitch="48" is_b="0" keyBorad="←"/>
+			<key keyCode="40" pitch="50" is_b="0" keyBorad="↓"/>
+			<key keyCode="39" pitch="52" is_b="0" keyBorad="→"/>
+			<key keyCode="38" pitch="53" is_b="0" keyBorad="↑"/>
+			<key keyCode="96" pitch="55" is_b="0" keyBorad="0"/>
+			<key keyCode="110" pitch="57" is_b="0" keyBorad="."/>
+			<key keyCode="10" pitch="59" is_b="0" keyBorad="右回车"/>
+			
+			<!-- 中音 -->
+			<key keyCode="97" pitch="60" is_b="0" keyBorad="1"/>
+			<key keyCode="98" pitch="62" is_b="0" keyBorad="2"/>
+			<key keyCode="99" pitch="64" is_b="0" keyBorad="3"/>
+			<key keyCode="100" pitch="65" is_b="0" keyBorad="4"/>
+			<key keyCode="101" pitch="67" is_b="0" keyBorad="5"/>
+			<key keyCode="102" pitch="69" is_b="0" keyBorad="6"/>
+			<key keyCode="103" pitch="71" is_b="0" keyBorad="7"/>
+			
+			
+			<!-- 高音 -->
+			<key keyCode="104" pitch="72" is_b="0" keyBorad="8"/>
+			<key keyCode="105" pitch="74" is_b="0" keyBorad="9"/>
+			<key keyCode="107" pitch="76" is_b="0" keyBorad="+"/>
+			<key keyCode="144" pitch="77" is_b="0" keyBorad="NumLock"/>
+			<key keyCode="111" pitch="79" is_b="0" keyBorad="/"/>
+			<key keyCode="106" pitch="81" is_b="0" keyBorad="*"/>
+			<key keyCode="109" pitch="83" is_b="0" keyBorad="-"/>					
+			
+			<!-- 高音2 -->
+			<key keyCode="127" pitch="84" is_b="0" keyBorad="Del"/>
+			<key keyCode="35" pitch="86" is_b="0" keyBorad="End"/>
+			<key keyCode="34" pitch="88" is_b="0" keyBorad="PgDn"/>
+			<key keyCode="155" pitch="89" is_b="0" keyBorad="Insert"/>
+			<key keyCode="36" pitch="91" is_b="0" keyBorad="Home"/>
+			<key keyCode="33" pitch="93" is_b="0" keyBorad="PgUp"/>
+					
+		
+	</keysLayout>
+
+</MyJavaPianoSetting>
