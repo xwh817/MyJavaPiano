@@ -52,8 +52,6 @@ public class MyJavaPiano extends JFrame{
 		jPiano.setInitial_props();	//初始化参数
 		DeviceManage.initial();		//初始化device
 		jPiano.showView();		//显示界面
-		
-		
 	}
 	
 	

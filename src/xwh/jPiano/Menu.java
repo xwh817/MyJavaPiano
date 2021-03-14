@@ -344,13 +344,12 @@ public class Menu extends JMenuBar{
 			dlg_help.setSize(800, 600);
 			dlg_help.setIconImage(ImgUtil.getImage(path+"help.png"));
 			dlg_help.setTitle("帮助说明");
-			
-			URLClassLoader urlLoader = (URLClassLoader)MyJavaPiano.class.getClassLoader(); 
-			URL url = urlLoader.findResource("help/readme.html");
-	
+			//AppClassLoader urlLoader = (AppClassLoader)MyJavaPiano.class.getClassLoader(); 
+			//URL url = urlLoader.findResource("help/readme.html");
 			editorPane.setEditable(false);     //请把editorPane设置为只读，不然显示就不整齐   
+			URL urlRoot = getClass().getResource("/");
 			try {
-				editorPane.setPage(url);
+				editorPane.setPage(urlRoot.toString() + "help/readme.html");
 			} catch (IOException e1) {
 				e1.printStackTrace();
 			}  
